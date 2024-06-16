@@ -7,6 +7,7 @@ import AuthTitle from "./AuthTitle";
 import "./auth.css";
 import { Link, useNavigate } from "react-router-dom";
 const Register = () => {
+  document.title = "Tesla Stocks | Register"
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState("");
   const [formData, setFormData] = useState({

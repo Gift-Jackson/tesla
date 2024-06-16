@@ -85,9 +85,9 @@
         width: auto;
         position: fixed;
         top: 0;
-        left: -60%;
+        left: -70%;
         z-index: 1000;
-        width: 60%;
+        width: 70%;
         height: 100dvh;
         background-color: var(--secondary-1);
         transition: .2s;

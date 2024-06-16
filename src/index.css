@@ -13,7 +13,7 @@
 }
 
 :root{
-  --primary: #f80000;
+  --primary: #da1111;
   --secondary-1: #212121;
   --secondary-3: #2e2d2d;
   --secondary-2: linear-gradient(90deg ,#313131, transparent);
@@ -97,6 +97,12 @@ main {
   max-height: calc(100dvh - 70px);
   overflow: scroll;
   padding: 1em 2em 3em;
+}
+
+@media (max-width:500px) {
+  .wrapper{
+    padding: 1em 1em 3em;
+  }
 }
 
 

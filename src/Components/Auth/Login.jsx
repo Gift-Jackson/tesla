@@ -6,6 +6,7 @@ import "./auth.css";
 import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
+  document.title = "Tesla Stocks | Login"
   const [formData, setFormData] = useState({
     email: "",
     password: "",
