@@ -24,16 +24,7 @@
   --text-light: #fefefe81;
   --white: #fefefe;
 }
-.light{
-  --primary: crimson;
-  --secondary-1: #fefefe;
-  --secondary-2: linear-gradient(90deg ,#f5f6f7, transparent);
-  --main: #f9f9f9;
-  --border: #ddd;
-  --text: #444;
-  --text-light: #888;
-  --white: #fefefe;
-}
+
 
 *::-webkit-scrollbar {
   height: .5rem;
@@ -94,7 +85,7 @@ main {
   margin: auto;
 }
 .wrapper{
-  max-height: calc(100dvh - 70px);
+  max-height: calc(100dvh - 120px);
   overflow: scroll;
   padding: 1em 2em 3em;
 }

@@ -5,11 +5,17 @@
 }
 .body-container{
     flex: 1;
+    min-height: 100dvh;
+   padding-bottom: 3em;
 }
 
 @media (max-width:500px){
     .body-container{
         width: 100%;
         flex: unset;
+    }
+    .dashboard-container{
+        /* min-height: 100dvh;
+        overflow: unset; */
     }
 }

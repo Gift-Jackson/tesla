@@ -1,0 +1,53 @@
+/* transactions.module.css */
+
+.container {
+overflow-x: scroll;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: scroll;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid var(--border);
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color:var(--secondary-3);
+  }
+  
+  .table tr:hover {
+    background-color: var(--secondary-3);
+  }
+  
+  .success {
+    color: mediumseagreen;
+    font-weight: bold;
+  }
+  
+  .pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .failed {
+    color: crimson;
+    font-weight: bold;
+  }
+
+  @media (max-width:500px) {
+    .table{
+        width: 500px;
+    }
+  }
+  

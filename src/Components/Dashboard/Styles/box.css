@@ -1,0 +1,13 @@
+.main-box{
+    margin-top: 1em;
+    border: 1px solid var(--border);
+    border-radius: .5em;
+    padding: 1em 1.5em;
+    background-color: var(--secondary-1);
+}
+.main-box-heading{
+    margin-bottom: 1em;
+}
+.main-box:nth-last-child(){
+    margin-bottom: 6em;
+}

@@ -3,6 +3,8 @@ import Wrapper from "../Wrapper";
 import "../Styles/dashboard.css";
 import OverviewCard from "../OverviewCard";
 import TradingViewWidget from "../TradingViewWidget";
+import ActiveInvestment from "../ActiveInvestment";
+import Transactions from "../Transactions";
 const Dashboard = () => {
   document.title = "Tesla Stocks | Dashboard"
   const account_balance = new Intl.NumberFormat("en-US", {
@@ -41,6 +43,9 @@ const Dashboard = () => {
             <TradingViewWidget/>
           </div>
         </div>
+
+        <ActiveInvestment />
+        <Transactions/>
       </Wrapper>
     </>
   );
