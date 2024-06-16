@@ -31,10 +31,10 @@ const Dashboard = () => {
           </div>
 
           <div className="grid-container">
-            <OverviewCard amount={0.0} label="TOTAL DEPOSIT" icon="account_balance_wallet" />
-            <OverviewCard amount={0.0} label="TOTAL PROFIT" icon="trending_up" />
-            <OverviewCard amount={0.0} label="TOTAL BONUS" icon="request_quote" />
-            <OverviewCard amount={0.0} label="WITHDRAWALS" icon="credit_score" />
+            <OverviewCard amount={"625,300"} label="TOTAL DEPOSIT" icon="account_balance_wallet" />
+            <OverviewCard amount={"5,600"} label="TOTAL PROFIT" icon="trending_up" />
+            <OverviewCard amount={"12,772"} label="TOTAL BONUS" icon="request_quote" />
+            <OverviewCard amount={"275,100"} label="WITHDRAWALS" icon="credit_score" />
           </div>
 
           <div className="trades">

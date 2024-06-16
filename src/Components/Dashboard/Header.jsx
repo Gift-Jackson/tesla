@@ -6,7 +6,7 @@ const Header = () => {
   const {toggleMenu}= useContext(MenuContext)
   return (
     <header>
-      <Brand size={25} />
+      <Brand size={22} />
 
       <div className="header-right">
         {/* <div className="theme header-btn">

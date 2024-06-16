@@ -36,7 +36,7 @@ header{
 
 @media (max-width:500px){
     .header-right{
-        gap: .5em;
+        gap: 1em;
     }
     .menu{
         display: flex;
@@ -46,6 +46,7 @@ header{
     }
     header{
         padding: 0 1em;
+        background-color: var(--secondary-1);
     }
     .header-btn{
         height: 45px;
