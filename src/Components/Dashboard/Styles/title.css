@@ -1,0 +1,5 @@
+.layout-title{
+    border-left: 6px solid var(--primary);
+    padding-left: 1em;
+    margin-top: 1em;
+}

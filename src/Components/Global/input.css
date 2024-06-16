@@ -1,0 +1,48 @@
+.red{
+    color: crimson;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    /* gap: .3em; */
+}
+.input label{
+    font-size: .9em;
+    padding-left: .3em;
+}
+.input input, .input textarea, .input select{
+    padding: .95em 1.3em;
+    border: 1px solid var(--border);
+    border-radius: .5em;
+    background-color: var(--secondary);
+}
+.input input:focus-within,
+.input textarea:focus-within,
+.input select:focus-within{
+   
+    border-color: var(--primary);
+}
+::placeholder{
+    color: var(--text-light);
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.field span{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+::-webkit-file-upload-button{
+    background-color: var(--primary);
+    padding: .5em;
+    border: 0;
+    color: var(--white);
+    border-radius: .3em;
+}

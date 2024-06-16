@@ -1,0 +1,22 @@
+.overview-card{
+    background: var(--secondary-2);
+    border-radius: .5em;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: .2s;
+}
+.overview-card:hover{
+    transform: translateY(-10px);
+}
+.overview-content{
+    padding: 1em;
+}
+.overview-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--secondary-3);
+    height: 100%;
+    padding: 0 2em;
+}
