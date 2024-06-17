@@ -5,6 +5,7 @@ header{
     min-height: 70px;
     padding: 0 2em;
     border-bottom: 1px solid var(--border);
+    background-color: var(--secondary-1);
 }
 .header-right{
     display: flex;
@@ -36,7 +37,7 @@ header{
 
 @media (max-width:500px){
     .header-right{
-        gap: 1em;
+        gap: .5em;
     }
     .menu{
         display: flex;
