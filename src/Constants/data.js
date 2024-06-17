@@ -36,8 +36,29 @@ export const sidenav = [
     },
 ]
 
-export const overview = [
+export const plans = [
     {
-        
-    }
+        plan: "Platinum",
+        min: 50000,
+        max: 100000,
+        time: "60"
+    },
+    {
+        plan: "Gold",
+        min: 10000,
+        max: 49999,
+        time: "30"
+    },
+    {
+        plan: "Silver",
+        min: 5000,
+        max: 9999,
+        time: "14"
+    },
+    {
+        plan: "Basic",
+        min: 500,
+        max: 4999,
+        time: "7"
+    },
 ]

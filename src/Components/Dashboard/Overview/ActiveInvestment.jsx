@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import Box from "./Box";
-import styles from "./Styles/investment.module.css";
-import btc from "../../assets/btc.png";
-import eth from "../../assets/eth.png";
-import usdt from "../../assets/usdt.png";
+import Box from "../Box";
+import styles from "../Styles/investment.module.css";
+import btc from "../../../assets/btc.png";
+import eth from "../../../assets/eth.png";
+import usdt from "../../../assets/usdt.png";
 import { useState } from "react";
 const investments = [
   {
@@ -27,7 +27,7 @@ const investments = [
 ];
 const ActiveInvestment = () => {
   const [activeInvestment] = useState(false);
-  
+
   return (
     <>
       <Box title="Active Investments">

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Styles/overviewcard.css"
+import "../Styles/overviewcard.css"
 const OverviewCard = ({ amount, label, icon }) => {
   return (
     <>

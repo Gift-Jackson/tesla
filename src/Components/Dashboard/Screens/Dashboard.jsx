@@ -1,9 +1,9 @@
 import Title from "../Title";
 import Wrapper from "../Wrapper";
 import "../Styles/dashboard.css";
-import OverviewCard from "../OverviewCard";
-import TradingViewWidget from "../TradingViewWidget";
-import ActiveInvestment from "../ActiveInvestment";
+import OverviewCard from "../Overview/OverviewCard";
+import TradingViewWidget from "../Overview/TradingViewWidget";
+import ActiveInvestment from "../Overview/ActiveInvestment";
 import Transactions from "../Transactions";
 import Box from "../Box";
 import {
@@ -62,8 +62,6 @@ const Dashboard = () => {
               icon="credit_score"
             />
           </div>
-
-          
         </div>
         <Box title="Real Time Chart">
           <TradingViewWidget />
@@ -103,8 +101,11 @@ const Dashboard = () => {
             width="100%"
           />
         </Box>
-        <Box title="Refer Us & Earn" subtitle="Use the link below to invite your friends.">
-            <CopyInput referralLink={referralLink}/>
+        <Box
+          title="Refer Us & Earn"
+          subtitle="Use the link below to invite your friends."
+        >
+          <CopyInput referralLink={referralLink} />
         </Box>
       </Wrapper>
     </>
