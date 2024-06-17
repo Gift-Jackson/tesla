@@ -5,36 +5,44 @@
     margin: 2em 0 1em;
     border-radius: .5em;
 }
-body.light .box{
+
+body.light .box {
     /* border-color: transparent; */
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
-.green{
+
+.green {
     color: mediumseagreen;
 }
-.balance-card{
+
+.balance-card {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.grid-container{
-    margin-top: 2em;
+.grid-container {
     gap: 1em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
-.trades{
+
+.main {
+    margin-top: 2em;
+}
+
+.trades {
     margin-top: 2em;
     background-color: var(--main);
     border-radius: .5em;
 }
-.tradingview-widget-container>div{
+
+.tradingview-widget-container>div {
     width: 100%;
 }
 
-@media (max-width:500px){
-    .grid-container{
+@media (max-width:500px) {
+    .grid-container {
         grid-template-columns: 1fr;
     }
 }
