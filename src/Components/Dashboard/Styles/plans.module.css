@@ -1,7 +1,7 @@
 .container{
     text-align: center;
     background-color: var(--main);
-    padding: 3em 2em 2em;
+    padding: 3em 1.5em 2em;
     border-radius: .5em;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
 .middle{
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
-    padding: 1.5em 0;
+    padding: 1.5em 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -41,7 +41,7 @@
     font-size: small;
     background-color: rgba(220, 20, 60, .1);
     border: 1px solid crimson;
-    padding: .3em;
+    padding: .5em;
     border-radius: .5em;
     margin-top: 1em;
 }

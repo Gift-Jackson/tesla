@@ -60,7 +60,6 @@ const Plans = ({ plan, min, max, time }) => {
       </div>
       <div className={styles.bottom}>
         <p><b>Amount to Invest ($)</b></p>
-        {error && <p className={styles.error}>{error}</p>}
         <form className={styles.form} onSubmit={handleSubmit}>
           <input
             type="number"
@@ -70,7 +69,7 @@ const Plans = ({ plan, min, max, time }) => {
           />
           <button className={styles.btn} type="submit">Invest</button>
         </form>
-        
+        {error && <p className={styles.error}>{error}</p>}
       </div>
     </div>
   );

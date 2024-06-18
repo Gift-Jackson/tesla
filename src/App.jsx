@@ -2,6 +2,7 @@ import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import Loader from "./Components/Global/Loader";
 import MenuToggleProvider from "./Context/MenuToggleProvider";
+import Payments from "./Components/Dashboard/Screens/Payments";
 
 // Lazy import components
 const Login = lazy(() => import("./Components/Auth/Login"));
@@ -9,6 +10,7 @@ const Register = lazy(() => import("./Components/Auth/Register"));
 const DashboardLayout = lazy(() => import("./Components/Dashboard/Layout"));
 const Dashboard = lazy(() => import("./Components/Dashboard/Screens/Dashboard"));
 const Packages = lazy(() => import("./Components/Dashboard/Screens/Packages"));
+const  Deposit = lazy(() => import("./Components/Dashboard/Screens/Deposit"));
 const Transactions = lazy(() => import("./Components/Dashboard/Screens/TransactionsPage"))
 const Referrals = lazy(() => import("./Components/Dashboard/Screens/Referrals"))
 const Settings = lazy(() => import("./Components/Dashboard/Screens/Settings"));
@@ -23,6 +25,8 @@ const App = () => {
           <Route path="/dashboard" element={<DashboardLayout />}>
             <Route path="overview" element={<Dashboard />} />
             <Route path="packages" element={<Packages />} />
+            <Route path="deposit" element={<Deposit />} />
+            <Route path="payments/:id" element={<Payments />} />
             <Route path="transactions" element={<Transactions />} />
             <Route path="referrals" element={<Referrals />} />
             <Route path="settings" element={<Settings />} />
