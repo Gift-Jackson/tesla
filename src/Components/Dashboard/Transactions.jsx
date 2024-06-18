@@ -6,8 +6,8 @@ const Transactions = () => {
         { type: "deposit", amount: "$200", date: "2024-06-01", status: "success" },
         { type: "withdrawal", amount: "$100", date: "2024-06-02", status: "pending" },
         { type: "deposit", amount: "$150", date: "2024-06-03", status: "failed" },
-        // Add more transactions as needed
-      ];
+  ];
+  
   const getStatusClass = (status) => {
     switch (status) {
       case "success":

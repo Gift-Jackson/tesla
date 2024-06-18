@@ -1,56 +1,59 @@
 /* transactions.module.css */
 
 .container {
-overflow-x: scroll;
-  }
-  
-  .table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    overflow-x: scroll;
-  }
-  
-  .table th,
-  .table td {
-    border: 1px solid var(--border);
-    padding: 12px 15px;
-    text-align: left;
-  }
-  
-  .table th {
-    font-weight: bold;
-  }
-  
-  .table tr:nth-child(even) {
-    background-color:var(--secondary-3);
-  }
-  
-  .table tr:hover {
-    background-color: var(--secondary-3);
-  }
-  
-  .success {
-    color: mediumseagreen;
-    background-color: rgba(60, 179, 113,0.1);
-    font-weight: bold;
-  }
-  
-  .pending {
-    color: orange;
-    background-color: rgba(255, 165, 0, 0.1);
-    font-weight: bold;
-  }
-  
-  .failed {
-    color: crimson;
-    background-color: rgba(220, 20, 60, .1);
-    font-weight: bold;
-  }
+  overflow-x: scroll;
+  padding-bottom: 2em;
+}
 
-  @media (max-width:500px) {
-    .table{
-        width: 500px;
-    }
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.table th,
+.table td {
+  border: 0;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table th {
+  font-weight: bold;
+  border-bottom: 1px solid var(--border);
+  border-top: 1px solid var(--border);
+  background-color: var(--secondary-3);
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--secondary-3);
+}
+
+.table tr:hover {
+  background-color: var(--secondary-3);
+}
+
+.success {
+  color: mediumseagreen;
+  background-color: rgba(60, 179, 113, 0.1);
+  font-weight: bold;
+}
+
+.pending {
+  color: orange;
+  background-color: rgba(255, 165, 0, 0.1);
+  font-weight: bold;
+}
+
+.failed {
+  color: crimson;
+  background-color: rgba(220, 20, 60, .1);
+  font-weight: bold;
+}
+
+@media (max-width:500px) {
+  .table {
+    width: 500px;
   }
-  
+}

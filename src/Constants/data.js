@@ -30,9 +30,9 @@ export const sidenav = [
         path:"referrals"
     },
     {
-        icon: "shield_person",
-        label: "Profile",
-        path:"profile"
+        icon: "settings",
+        label: "Settings",
+        path:"settings"
     },
 ]
 

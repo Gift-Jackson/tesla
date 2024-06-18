@@ -105,7 +105,7 @@ const Dashboard = () => {
           title="Refer Us & Earn"
           subtitle="Use the link below to invite your friends."
         >
-          <CopyInput referralLink={referralLink} />
+          <CopyInput text={referralLink} />
         </Box>
       </Wrapper>
     </>

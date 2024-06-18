@@ -14,7 +14,7 @@ const Sidebar = () => {
         </div>
         <ul>
           {sidenav.map((item, index) => (
-            <li key={index}>
+            <li onClick={toggleMenu} key={index}>
               <NavLink className="nav-link" to={item.path}>
                 <div className="icon">
                   <span className="material-symbols-rounded">{item.icon}</span>

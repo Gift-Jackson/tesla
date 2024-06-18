@@ -6,7 +6,7 @@ const TransactionsPage = () => {
   return (
     <>
       <Wrapper>
-        <Title title="Recent Transactions" />
+        <Title title="Transactions" />
         <Transactions/>
       </Wrapper>
     </>
